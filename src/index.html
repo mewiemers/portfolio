@@ -6,19 +6,49 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="shortcut icon" href="public/favicon.ico" />
+    <link rel="shortcut icon" href="#" />
     <title>Hello, world!</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-secondary">
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+       data-bs-target="#navbarNav" aria-controls="navbarNav" 
+       aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Über mich<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Werdegang</a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Projekte</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+      </div>
+  </nav>
     <main class="pt-5 text-center">
-      <img
-        class="img-thumbnail rounded-circle bg-light"
-        src="public/cat.png"
-        alt="Professor Meow"
-      />
+      <!--<img
+        class="img-fluid rounded-circle bg-light"
+        src="public/me.jpg"
+        alt="Melanie"
+      />-->
+      <div class="hero-image img-thumbnail rounded-circle">
+        <div class="hero-text">
+          <h1>Melanie Wiemers</h1>
+        </div>
+      </div>
+
       <p class="mt-3">
-        Greetings <span class="text-primary">students</span>! It smells like
-        <span class="fancy">new fishes</span> 🐟 in here.
+        <h2>On my way to to become a Web Developer</h2>
       </p>
     </main>
   </body>
