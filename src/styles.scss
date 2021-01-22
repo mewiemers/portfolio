@@ -1,8 +1,8 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
 
-$body-bg: #ddd;
-$body-color: #222;
+$body-bg: #040403;
+$body-color: #c3e8bd;
 $primary: hotpink;
 $font-family-base: Arial;
 
@@ -11,7 +11,7 @@ $font-family-base: Arial;
 
 // Add you custom CSS
 
-.fancy {
+/*.fancy {
   display: inline-block;
   background: rgb(131, 58, 180);
   background: linear-gradient(
@@ -22,4 +22,41 @@ $font-family-base: Arial;
   );
   color: #fff;
   padding: 0.5em;
+}*/
+.hero-image {
+  background-image: url(/public/me.jpg);
+  /*background-color: #cccccc;*/
+  min-height: 25rem;
+  min-width: 25rem;
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  color: #c3e8bd;
+}
+.head-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.head-nav a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  display: block;
+  text-align: center;
+}
+.container {
+  /*width: 100%;*/
+  height: 15rem;
+  background-color: #9ddbad;
 }
