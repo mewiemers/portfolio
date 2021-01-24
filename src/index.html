@@ -9,44 +9,83 @@
     <link rel="shortcut icon" href="#" />
     <title>Hello, world!</title>
   </head>
-  
-  <body>
-    <header>
-      <div class="hero-image">
-        <div class="hero-text">
-          <h1>Melanie Wiemers</h1>
-        </div>
-      </div>
-    </header>
-    <main class="pt-5 text-center">
-      <!--<img
-        class="img-fluid rounded-circle bg-light"
-        src="public/me.jpg"
-        alt="Melanie"
-      />-->
-     
-      <nav class="head-nav" style="margin-top:20px;">
-        <a href="#">Thats me</a>
-        <a href="#">Skills</a>
-        <a href="#">Contact</a>
-      </nav>
 
-      <p class="mt-3">
-        <h2>On my way to to become a Web Developer</h2>
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-         Dolores ea ut est consequatur dolorum minus ducimus reiciendis
-          expedita atque magni perspiciatis officiis porro vero quidem adipisci,
-           debitis doloribus? Temporibus, recusandae!
-      </p>
-      <div class="container">
-        <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
+  <body>
+    <!--Header-->
+    <header>
+      <!--navbar-->
+      <nav class="head-nav">
+        <a href="#thatsme">Thats me</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <!--end navbar-->
+    </header>
+    <!--end header-->
+    <main class="pt-5 text-center">
+      <section>
+        <img src="/public/me.jpg" alt="Melanie" width="50%" />
+      </section>
+
+      <h1 style="margin-top: 5%">Melanie Wiemers</h1>
+
+      <blockquote cite="#HermannHesse">
+        "Alles Wissen und Vermehren unseres Wissens endet nicht mit einem
+        Schlußpunkt,<br />
+        sondern mit einem Fragezeichen."
+        <cite id="HermannHesse">(Herrmann Hesse)</cite>
+      </blockquote>
+
+      <!--end 1st para-->
+    </main>
+    <div class="greencontainer">
+      <div class="row">
+        <div class="col flex-item">
+          <h3 id="thatsme">Thats me</h3>
+          <p>
+            Hi,i'm Melanie and on my way to become a Web Developer. As i studied
+            linguistics and media science,i came in contact with programming
+            langugages like python and Markup languages like HTML and CSS.
+            Designing the first websites with Wordpress was fascinating and
+            inspired me to improve and learn new skills at neue fische GmbH.
+          </p>
+        </div>
+
+        <div class="col flex-item">
+          <h3 id="skills">Skills</h3>
+          <ul class="li_it">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Wordpress</li>
+            <li>Drupal</li>
+            <li>Contao</li>
+            <li>Adobe InDesign & Photoshop</li>
+            <li>Adobe Premiere</li>
+          </ul>
+        </div>
+
+        <div class="col flex-item">
+          <h3 id="contact">Contact</h3>
+          <a class="linkto" href="https://github.com/mewiemers">
+            <img class="link-img" src="/public/github_1024_black.png" />
+          </a>
+          <a
+            class="linkto"
+            href="https://www.linkedin.com/in/melanie-wiemers-3a3a26191/"
+          >
+            <img class="link-img" src="/public/linkedin.png" />
+          </a>
+          <a
+            class="linkto"
+            href="https://www.xing.com/profile/Melanie_Wiemers/cv"
+          >
+            <img class="link-img" src="/public/xing2.png" />
+          </a>
+          <a class="linkto" href="mailto:m.wiemers01@gmail.com">
+            <img class="link-img" src="/public/mail.png" />
+          </a>
         </div>
       </div>
-    </main>
+    </div>
   </body>
 </html>
