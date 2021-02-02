@@ -11,40 +11,26 @@ $font-family-base: Arial;
 
 // Add you custom CSS
 
-/*.fancy {
-  display: inline-block;
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
-  color: #fff;
-  padding: 0.5em;
-}*/
 html {
   scroll-behavior: smooth;
 }
 
-.head-nav {
-  display: flex;
-  justify-content: space-evenly;
-}
-.head-nav a {
-  color: #8eb897;
-  text-decoration: none;
+a {
   border: 1px solid white;
   border-radius: 10px;
-  width: 200px;
-  height: 30px;
   display: block;
   text-align: center;
 }
+
 .greencontainer {
   min-height: 16rem;
   background-color: #8eb897;
   /*width: 100%;*/
+}
+.info-container {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
 }
 .row {
   margin-left: 0%;
@@ -126,4 +112,7 @@ img {
 .link-img {
   width: 80px;
   height: 80px;
+}
+p {
+  color: #040403;
 }
