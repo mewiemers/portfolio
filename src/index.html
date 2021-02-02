@@ -6,21 +6,63 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="shortcut icon" href="#" />
-    <title>Hello, world!</title>
+    <link rel="shortcut-icon" href="#" />
+
+    <title>Melanies Portfolio</title>
   </head>
 
   <body>
-    <!--Header-->
-    <header>
-      <!--navbar-->
-      <nav class="head-nav">
-        <a href="#thatsme">Thats me</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <!--end navbar-->
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MW</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggler"
+          aria-controls="navbarToggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--end navbar
+
     <!--end header-->
     <main class="pt-5 text-center">
       <section>
@@ -39,9 +81,9 @@
       <!--end 1st para-->
     </main>
 
-    <div class="flex-container greencontainer">
+    <div class="info-container greencontainer">
       <div class="row">
-        <div class="col-md-4 flex-item">
+        <div>
           <h3 id="thatsme">Thats me</h3>
           <p>
             Hi,i'm Melanie and on my way to become a Web Developer. As i studied
@@ -52,7 +94,7 @@
           </p>
         </div>
 
-        <div class="col-md-4 flex-item">
+        <div>
           <h3 id="skills">Skills</h3>
           <ul class="li_it">
             <li>HTML</li>
@@ -65,7 +107,7 @@
           </ul>
         </div>
 
-        <div class="col-md-4 flex-item">
+        <div>
           <h3 id="contact">Contact</h3>
           <a class="linkto" href="https://github.com/mewiemers">
             <img class="link-img" src="/public/github_1024_black.png" />
